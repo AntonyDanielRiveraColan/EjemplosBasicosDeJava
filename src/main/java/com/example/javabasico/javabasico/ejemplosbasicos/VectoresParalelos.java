@@ -79,20 +79,23 @@ for (int i=0; i<3; i++){
       edades[i] = scanner.nextInt();
     }
 
-//Salida o impresion de los datos
-    for (int i = 0; i < 3; i++) {
-      System.out.println("El nombre es " + nombres[i] + " su edad es : " + edades[i]);
-    }
+    /**
+     //Salida o impresion de los datos
+     for (int i = 0; i < 3; i++) {
+     System.out.println("El nombre es " + nombres[i] + " su edad es : " + edades[i]);
+     }
 
-    System.out.println(" ");
-    System.out.println(" Solo los mayores a 20 años  ");
-    System.out.println(" =======================================================");
+     System.out.println(" ");
+     System.out.println(" Solo los mayores a 20 años  ");
+     System.out.println(" =======================================================");
 
-    for (int i = 0; i < 3; i++) {
-      if (edades[i] > 20) {
-        System.out.println("El nombre es " + nombres[i] + " su edad es : " + edades[i]);
-      }
-    }
+     for (int i = 0; i < 3; i++) {
+     if (edades[i] > 20) {
+     System.out.println("El nombre es " + nombres[i] + " su edad es : " + edades[i]);
+     }
+     }
+
+     */
   }
 
 
