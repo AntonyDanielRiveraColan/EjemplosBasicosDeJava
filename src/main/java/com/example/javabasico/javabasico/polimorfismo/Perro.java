@@ -26,7 +26,7 @@ public class Perro extends Animal {
 
   @Override
   public void alimentacion() {
-  System.out.println("Yo como carne " +"y mi raza es "+ raza);
+    System.out.println("Yo como carne " + "y mi raza es " + raza);
   }
 
 

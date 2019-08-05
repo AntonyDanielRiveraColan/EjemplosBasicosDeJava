@@ -5,6 +5,7 @@ public abstract class Animal {
   private String tipoAlimentacion;
   private int edad;
 
+  /**Constructor. */
   public Animal(String nombre, String tipoAlimentacion, int edad) {
     this.nombre = nombre;
     this.tipoAlimentacion = tipoAlimentacion;
@@ -40,8 +41,9 @@ public abstract class Animal {
 
   public abstract void alimentacion();
 
-  public  void movimiento(){
+  public  void movimiento() {
     System.out.println("El animal se esta moviendo");
+
   };
 
 }

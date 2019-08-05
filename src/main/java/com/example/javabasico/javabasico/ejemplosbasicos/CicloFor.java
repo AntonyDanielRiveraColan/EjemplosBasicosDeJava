@@ -3,7 +3,9 @@ package com.example.javabasico.javabasico.ejemplosbasicos;
 import java.lang.reflect.Array;
 
 public class CicloFor {
-
+  /**
+ * Metodo principal.
+ * */
   public static void main(String[] args) {
     String[] lista = {"Youtube", "Facebook", "etc"};
 
@@ -15,14 +17,14 @@ public class CicloFor {
      break;
      System.out.println("El contador esta en " + i);
      } */
-      /**
+    /**
     for (int i = 0; i < lista.length; i++) {
     System.out.println(lista[i]);
     } */
-      for (String s : lista){
-        System.out.println(s);
-      }
 
+    for (String s : lista){
+      System.out.println(s);
+    }
 
   }
 

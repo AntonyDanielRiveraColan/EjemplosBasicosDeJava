@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class EntradaDeDatos {
 
+  /**El siguiente es el metodo principal.*/
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
 
@@ -22,6 +23,6 @@ public class EntradaDeDatos {
     System.out.println("Su edad ingresada es : " + numero);
     System.out.println("=================================");
     System.out.println("   ");
-    System.out.println(nombre+"  su edad es  =>  " + numero + " Felicitaciones!!!");
+    System.out.println(nombre + "  su edad es  =>  " + numero + " Felicitaciones!!!");
   }
 }

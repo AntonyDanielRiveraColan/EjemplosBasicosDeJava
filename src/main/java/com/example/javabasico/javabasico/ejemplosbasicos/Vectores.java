@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Vectores {
 
+  /**Metodo principal.*/
   public static void main(String[] args) {
     System.out.println("Ingrese el tamaño del vector");
     Scanner scanner = new Scanner(System.in);

@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class VectoresOrdenados {
 
+  /**Metodo principal.*/
   public static void main(String[] args) {
 
     //ordenarEdades();

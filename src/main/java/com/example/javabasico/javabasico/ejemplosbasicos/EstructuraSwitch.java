@@ -13,17 +13,17 @@ public class EstructuraSwitch {
     String resultado;
     resultado = scanner.next();
 
-    switch (resultado){
-
+    switch (resultado)
+    {
       case "Mito":
         System.out.println("Hola Mito 1");
         break;
       case "Code":
         System.out.println("Hola Code 1");
         break;
-        default:
-          System.out.println("Hola " + resultado);
-          break;
+      default:
+        System.out.println("Hola " + resultado);
+        break;
     }
     System.out.println("fin del Switch");
   }

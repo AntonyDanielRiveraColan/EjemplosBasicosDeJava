@@ -6,9 +6,10 @@ import java.util.GregorianCalendar;
 
 public class ManejoDeFechas {
 
+  /**Metodo principal.*/
   public static void main(String[] args) {
-   // usandoDate();
-   //usandoCalendar();
+    // usandoDate();
+    //usandoCalendar();
     usandoCalendarioGregoriano();
   }
 
@@ -22,7 +23,7 @@ public class ManejoDeFechas {
   private static void usandoCalendar() {
 
     Calendar calendar = Calendar.getInstance();
-    int anio= calendar.get(Calendar.YEAR);
+    int anio = calendar.get(Calendar.YEAR);
 
     System.out.println(anio);
 
